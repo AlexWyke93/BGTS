@@ -47,11 +47,12 @@ function Db_query($query)
 }
 
 /**
+ *
+ * @function Db_select()
+ *
  * @param $query
  *
  * @return array|bool
- *
- * @function Db_select()
  */
 function Db_select($query)
 {
