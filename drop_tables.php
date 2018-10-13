@@ -14,10 +14,8 @@ $result = Db_query(
     "DROP TABLE IF EXISTS artists, events, tattoos;"
 );
 
-$result = mysqli_query($connection, $deleteTables);
-
 if (!$result) {
-    die("Error in Code: " . mysqli_error($connection));
+    $error = Db_error();
 } else {
     echo "Tables Successfully Deleted!!";
 
