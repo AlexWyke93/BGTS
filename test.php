@@ -1,5 +1,4 @@
 <?php
-phpversion();
 /**
 
  * @category PHP
@@ -9,7 +8,7 @@ phpversion();
  * @link     n/a
  */
 
-    require("db_functions.php");
+    require "db_functions.php";
 
     $result = db_query(
         "INSERT INTO `artists`(
