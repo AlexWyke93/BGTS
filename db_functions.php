@@ -5,52 +5,75 @@
  * Date: 30/09/2018
  * Time: 02:18
  */
-    function Db_connect()
-    {
-        static $connection;
 
-        if(!isset($connection)) {
-            $config = parse_ini_file('../config.ini');
-            $connection = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
-        }
+/**
+ * @return mysqli|string
+ * @function Db_connect()
+ */
+function Db_connect()
+{
+    static $connection;
 
-        if ($connection === false) {
-            //TODO: Add Error Logging
-            return mysqli_connect_error();
-        }
-        return $connection;
+    if(!isset($connection)) {
+        $config = parse_ini_file('../config.ini');
+        $connection = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
     }
 
+    if ($connection === false) {
+        //TODO: Add Error Logging
+        return mysqli_connect_error();
+    }
+    return $connection;
+}
+
+/**
+ * @param $query
+ * @return bool|mysqli_result
+ * @function Db_query()
+ */
     function Db_query($query) {
-        $connection = db_connect();
+        $connection = Db_connect();
 
         $result = mysqli_query($connection, $query);
 
         return $result;
     }
 
+/**
+ * @param $query
+ * @return array|bool
+ * @function Db_select()
+ */
     function Db_select($query) {
         $rows = array();
-        $result = db_query($query);
+        $result = Db_query($query);
 
-        if ($result === false)
-        {
+        if ($result === false) {
             return false;
         }
 
-        while ($row = mysqli_fetch_assoc($result)){
+        while ($row = mysqli_fetch_assoc($result)) {
             $rows[] = $row;
         }
         return $rows;
     }
 
+/**
+ * @return string
+ * @function Db_error()
+ */
     function Db_error() {
-        $connection = db_connect();
+        $connection = Db_connect();
         return mysqli_error($connection);
     }
 
+/**
+ * @param $value
+ * @return string
+ * @function Db_quote()
+ */
     function Db_quote($value) {
-        $connection = db_connect();
+        $connection = Db_connect();
 
         return "'" . mysqli_real_escape_string($connection, $value) . "'";
     }
