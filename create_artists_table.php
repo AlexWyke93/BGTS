@@ -1,9 +1,12 @@
 <?php
 /**
- * Created by IntelliJ IDEA.
- * User: minim
- * Date: 29/09/2018
- * Time: 21:03
+ * PHP version 7.2
+ *
+ * @category PHP
+ * @package  BGTS-BE
+ * @author   Alexander Wyke <alexwyke93@gmail.com>
+ * @license  none
+ * @link     n/a
  */
 
     require "db_functions.php";
@@ -19,12 +22,10 @@
     );"
     );
 
-    if (!$result) {
-        $error = db_error();
-        echo $error;
-    }
-    else
-    {
-        echo "Artists Table Created Successfully!!";
-        
-    }
+if (!$result) {
+    $error = db_error();
+    echo $error;
+} else {
+    echo "Artists Table Created Successfully!!";
+
+}
