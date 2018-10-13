@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24137ec9-d635-4f6a-afc4-a67f9c2d3578" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_artist_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_artist_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create_artists_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/create_artists_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create_events_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/create_events_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/create_tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_tattoos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/create_tattoos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/db_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drop_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/drop_tables.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,16 +114,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="493" />
+          <entry key="php" value="519" />
           <entry key="sql" value="29" />
           <entry key="txt" value="376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="361" />
+          <entry key="PHP" value="364" />
           <entry key="PLAIN_TEXT" value="376" />
-          <entry key="SQL" value="132" />
+          <entry key="SQL" value="155" />
           <entry key="Scratch" value="29" />
         </counts>
       </usages-collector>
@@ -149,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_artists_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="357">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="e#6#159#0#PHP" expanded="true" />
               </folding>
@@ -161,8 +155,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_events_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="374">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="e#6#159#0#PHP" expanded="true" />
               </folding>
@@ -255,11 +249,11 @@
         <option value="$PROJECT_DIR$/drop_tables.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/create_artists_table.php" />
-        <option value="$PROJECT_DIR$/create_events_table.php" />
         <option value="$PROJECT_DIR$/add_artist_form.php" />
         <option value="$PROJECT_DIR$/create_tattoos_table.php" />
         <option value="$PROJECT_DIR$/create_tables.php" />
+        <option value="$PROJECT_DIR$/create_artists_table.php" />
+        <option value="$PROJECT_DIR$/create_events_table.php" />
       </list>
     </option>
   </component>
@@ -282,7 +276,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -326,7 +320,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539443383267" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539443754780" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -401,7 +395,7 @@
       <workItem from="1538362371406" duration="2843000" />
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
-      <workItem from="1539414390509" duration="18506000" />
+      <workItem from="1539414390509" duration="18875000" />
     </task>
     <task id="LOCAL-00001" summary="Created add_artist_form.php file">
       <created>1539415553078</created>
@@ -683,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539442903403</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="general tweaks">
+      <created>1539443390616</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1539443390616</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37521000" />
+    <option name="totallyTimeSpent" value="37890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,10 +700,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-7" y="0" width="697" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09757943" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20251177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -800,16 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#159#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_artist_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -839,8 +830,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_artists_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#6#159#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="e#6#159#0#PHP" expanded="true" />
           </folding>
@@ -849,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_events_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="374">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="e#6#159#0#PHP" expanded="true" />
           </folding>
