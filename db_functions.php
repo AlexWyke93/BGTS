@@ -10,9 +10,9 @@
  */
 
 /**
- * @return mysqli|string
+ * Connects to the database
  *
- * @function Db_connect()
+ * @return mysqli|string
  */
 function Db_connect()
 {
@@ -20,7 +20,8 @@ function Db_connect()
 
     if (!isset($connection)) {
         $config = parse_ini_file('../config.ini');
-        $connection = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
+        $connection = mysqli_connect('localhost', $config['username'],
+            $config['password'], $config['dbname']);
     }
 
     if ($connection === false) {
@@ -31,10 +32,11 @@ function Db_connect()
 }
 
 /**
- * @param $query
- * @return bool|mysqli_result
+ * Creates a query
  *
- * @function Db_query()
+ * @param $query
+ *
+ * @return bool|mysqli_result
  */
 function Db_query($query)
 {
@@ -46,10 +48,11 @@ function Db_query($query)
 }
 
 /**
- * @param $query
- * @return array|bool
+ * Creates and displays results of a SELECT query
  *
- * @function Db_select()
+ * @param $query
+ *
+ * @return array|bool
  */
 function Db_select($query)
 {
@@ -67,9 +70,9 @@ function Db_select($query)
 }
 
 /**
- * @return string
+ * Returns a error
  *
- * @function Db_error()
+ * @return string
  */
 function Db_error()
 {
@@ -78,10 +81,11 @@ function Db_error()
 }
 
 /**
- * @param $value
- * @return string
+ * Escapes potentially dangerous code
  *
- * @function Db_quote()
+ * @param $value
+ *
+ * @return string
  */
 function Db_quote($value)
 {
