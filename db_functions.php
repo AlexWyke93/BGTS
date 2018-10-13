@@ -32,7 +32,6 @@ function Db_connect()
 
 /**
  * @param $query
- *
  * @return bool|mysqli_result
  *
  * @function Db_query()
@@ -47,12 +46,10 @@ function Db_query($query)
 }
 
 /**
+ * @param $query
+ * @return array|bool
  *
  * @function Db_select()
- *
- * @param $query
- *
- * @return array|bool
  */
 function Db_select($query)
 {
@@ -82,7 +79,6 @@ function Db_error()
 
 /**
  * @param $value
- *
  * @return string
  *
  * @function Db_quote()
