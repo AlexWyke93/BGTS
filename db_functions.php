@@ -12,6 +12,7 @@
 /**
  *
  * @return mysqli|string
+ *
  * @function Db_connect()
  */
 function Db_connect()
@@ -35,6 +36,7 @@ function Db_connect()
  * @param $query
  *
  * @return bool|mysqli_result
+ *
  * @function Db_query()
  */
     function Db_query($query) {
@@ -50,6 +52,7 @@ function Db_connect()
  * @param $query
  *
  * @return array|bool
+ *
  * @function Db_select()
  */
     function Db_select($query) {
@@ -69,6 +72,7 @@ function Db_connect()
 /**
  *
  * @return string
+ *
  * @function Db_error()
  */
     function Db_error() {
@@ -81,6 +85,7 @@ function Db_connect()
  * @param $value
  *
  * @return string
+ *
  * @function Db_quote()
  */
     function Db_quote($value) {
