@@ -37,7 +37,8 @@ function Db_connect()
  *
  * @function Db_query()
  */
-    function Db_query($query) {
+    function Db_query($query)
+    {
         $connection = Db_connect();
 
         $result = mysqli_query($connection, $query);
@@ -52,7 +53,8 @@ function Db_connect()
  *
  * @function Db_select()
  */
-    function Db_select($query) {
+    function Db_select($query)
+    {
         $rows = array();
         $result = Db_query($query);
 
@@ -71,7 +73,8 @@ function Db_connect()
  *
  * @function Db_error()
  */
-    function Db_error() {
+    function Db_error()
+    {
         $connection = Db_connect();
         return mysqli_error($connection);
     }
@@ -83,7 +86,8 @@ function Db_connect()
  *
  * @function Db_quote()
  */
-    function Db_quote($value) {
+    function Db_quote($value)
+    {
         $connection = Db_connect();
 
         return "'" . mysqli_real_escape_string($connection, $value) . "'";
