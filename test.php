@@ -1,7 +1,7 @@
 <?php
 /**
 
- * PHP Version 7.2.10
+ * PHP version 7.2.10
  * @category PHP
  * @package  BGTS-BE
  * @author   Alexander Wyke <alexwyke93@gmail.com>
