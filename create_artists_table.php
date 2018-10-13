@@ -15,11 +15,11 @@
 
     $result = db_query(
         "CREATE TABLE IF NOT EXISTS artists (
-      artistId INT AUTO_INCREMENT PRIMARY KEY NOT NULL UNIQUE,
-      artistName VARCHAR(150) NOT NULL,
-      artistBio TEXT NOT NULL,
-      imageFN VARCHAR(200) NOT NULL
-    );"
+        artistId INT AUTO_INCREMENT PRIMARY KEY NOT NULL UNIQUE,
+        artistName VARCHAR(150) NOT NULL,
+        artistBio TEXT NOT NULL,
+        imageFN VARCHAR(200) NOT NULL
+        );"
     );
 
 if (!$result) {
