@@ -1,8 +1,8 @@
 <?php
-
+phpversion();
 /**
- *
- * @category  php
+
+ * @category PHP
  * @package  BGTS-BE
  * @author   Alexander Wyke <alexwyke93@gmail.com>
  * @license  none
@@ -14,12 +14,12 @@
     $result = db_query(
         "INSERT INTO `artists`(
         `artistId`, `artistName`, `artistBio`, `imageFN`) VALUES (
-        NULL,'Bob Wyke','I am a junior tattoo artist.','test')"
+        NULL,'Sam Wyke','I am a junior tattoo artist.','test')"
     );
     $result = db_query(
         "INSERT INTO `artists`(
         `artistId`, `artistName`, `artistBio`, `imageFN`) VALUES (
-        NULL,'Spike','I am a senior tattoo artist.','test')"
+        NULL,'James','I am a senior tattoo artist.','test')"
     );
 
 if ($result === false) {
