@@ -6,7 +6,7 @@
  * @author   Alexander Wyke <alexwyke93@gmail.com>
  * @license  none
  * @link     n/a
- * PHP Version 7.2.10
+ * PHP version 7.2.10
  */
 
     require "db_functions.php";
