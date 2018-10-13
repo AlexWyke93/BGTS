@@ -6,7 +6,7 @@
  * Time: 21:03
  */
 
-    include("db_functions.php");
+    include "db_functions.php";
 
     $connection = db_connect();
 

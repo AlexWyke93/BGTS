@@ -9,7 +9,7 @@
     error_reporting(E_ALL);*/
 
     phpversion();
-    include("db_functions.php");
+    include "db_functions.php";
 
     $connection = db_connect();
 
