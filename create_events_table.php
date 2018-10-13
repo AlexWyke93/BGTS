@@ -23,7 +23,7 @@
     $result = mysqli_query($connection, $newTable);
 
     if (!$result) {
-        die(mysqli_real_escape_string($connection,"Error in Code: " . mysqli_error($connection)));
+        die(db_quote("Error in Code: " . mysqli_error($connection)));
     }
     else
     {
