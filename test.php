@@ -1,6 +1,5 @@
 <?php
 /**
- *
  * PHP version 7.2.10
  *
  * @category PHP
