@@ -10,31 +10,30 @@
  */
 
     phpversion();
-    require "db_functions.php";
+    require "Db_functions.php";
 
-    $connection = db_connect();
+    $connection = Db_connect();
 
-    $newTable = "CREATE TABLE tattoos 
-    (
-      tattooId INT AUTO_INCREMENT NOT NULL UNIQUE,
-      artistId INT NOT NULL UNIQUE,
-      tattooTitle VARCHAR(150) NOT NULL,
-      addedDate TIMESTAMP NOT NULL,
-      tattooDescription TEXT NOT NULL,
-      tattooType VARCHAR(150) NOT NULL,
-      imageFN VARCHAR(200) NOT NULL,
-      PRIMARY KEY(tattooId),
-      FOREIGN KEY(artistId) REFERENCES artists(artistId)
-      ON UPDATE CASCADE
-      ON DELETE CASCADE 
-    );";
+    $result = Db_query(
+        $newTable = "CREATE TABLE tattoos (
+          tattooId INT AUTO_INCREMENT NOT NULL UNIQUE,
+          artistId INT NOT NULL UNIQUE,
+          tattooTitle VARCHAR(150) NOT NULL,
+          addedDate TIMESTAMP NOT NULL,
+          tattooDescription TEXT NOT NULL,
+          tattooType VARCHAR(150) NOT NULL,
+          imageFN VARCHAR(200) NOT NULL,
+          PRIMARY KEY(tattooId),
+          FOREIGN KEY(artistId) REFERENCES artists(artistId)
+          ON UPDATE CASCADE
+          ON DELETE CASCADE 
+        );"
+    );
 
     $result = mysqli_query($connection, $newTable);
 
-    if (!$result) {
-        die("Error in Code: " . mysqli_error($connection));
-    }
-    else
-    {
-        echo "Tattoos Table Created Successfully!!";
-    }
+if (!$result) {
+    die("Error in Code: " . mysqli_error($connection));
+} else {
+    echo "Tattoos Table Created Successfully!!";
+}

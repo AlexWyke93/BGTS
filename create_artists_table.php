@@ -9,11 +9,11 @@
  * @link     n/a
  */
 
-    require "db_functions.php";
+    require "Db_functions.php";
 
-    $connection = db_connect();
+    $connection = Db_connect();
 
-    $result = db_query(
+    $result = Db_query(
         "CREATE TABLE IF NOT EXISTS artists (
         artistId INT AUTO_INCREMENT PRIMARY KEY NOT NULL UNIQUE,
         artistName VARCHAR(150) NOT NULL,
@@ -23,7 +23,7 @@
     );
 
 if (!$result) {
-    $error = db_error();
+    $error = Db_error();
     echo $error;
 } else {
     echo "Artists Table Created Successfully!!";

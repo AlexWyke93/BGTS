@@ -5,26 +5,23 @@
  * Date: 30/09/2018
  * Time: 02:18
  */
-    function db_connect()
+    function Db_connect()
     {
         static $connection;
 
-        if(!isset($connection))
-        {
+        if(!isset($connection)) {
             $config = parse_ini_file('../config.ini');
             $connection = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
         }
 
-        if ($connection === false)
-        {
+        if ($connection === false) {
             //TODO: Add Error Logging
             return mysqli_connect_error();
         }
         return $connection;
     }
 
-    function db_query($query)
-    {
+    function Db_query($query) {
         $connection = db_connect();
 
         $result = mysqli_query($connection, $query);
@@ -32,8 +29,7 @@
         return $result;
     }
 
-    function db_select($query)
-    {
+    function Db_select($query) {
         $rows = array();
         $result = db_query($query);
 
@@ -48,13 +44,12 @@
         return $rows;
     }
 
-    function db_error()
-    {
+    function Db_error() {
         $connection = db_connect();
         return mysqli_error($connection);
     }
 
-    function db_quote($value){
+    function Db_quote($value) {
         $connection = db_connect();
 
         return "'" . mysqli_real_escape_string($connection, $value) . "'";

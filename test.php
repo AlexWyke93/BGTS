@@ -9,21 +9,21 @@
  * @link     n/a
  */
 
-    require "db_functions.php";
+    require "Db_functions.php";
 
-    $result = db_query(
+    $result = Db_query(
         "INSERT INTO `artists`(
         `artistId`, `artistName`, `artistBio`, `imageFN`) VALUES (
         NULL,'Sam Wyke','I am a junior tattoo artist.','test')"
     );
-    $result = db_query(
+    $result = Db_query(
         "INSERT INTO `artists`(
         `artistId`, `artistName`, `artistBio`, `imageFN`) VALUES (
         NULL,'James','I am a senior tattoo artist.','test')"
     );
 
 if ($result === false) {
-    $error = db_error();
+    $error = Db_error();
 } else {
     echo "Inserted Data!!!";
 }

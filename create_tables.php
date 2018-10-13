@@ -9,11 +9,11 @@
  * @link     n/a
  */
 
-    require "db_functions.php";
+    require "Db_functions.php";
 
-    $connection = db_connect();
+    $connection = Db_connect();
 
-    $result = db_query(
+    $result = Db_query(
         "CREATE TABLE IF NOT EXISTS events 
         (
           eventId INT AUTO_INCREMENT NOT NULL UNIQUE,
@@ -26,7 +26,7 @@
         );"
     );
 
-    $result = db_query(
+    $result = Db_query(
         "CREATE TABLE IF NOT EXISTS artists 
         (
           artistId INT AUTO_INCREMENT NOT NULL UNIQUE,
@@ -37,9 +37,8 @@
         );"
     );
 
-    $result = db_query(
-        "CREATE TABLE IF NOT EXISTS tattoos 
-        (
+    $result = Db_query(
+        "CREATE TABLE IF NOT EXISTS tattoos (
           tattooId INT AUTO_INCREMENT NOT NULL UNIQUE,
           artistId INT NOT NULL UNIQUE,
           tattooTitle VARCHAR(150) NOT NULL,
@@ -56,11 +55,8 @@
 
     $result = mysqli_query($connection, $newTable);
 
-    if (!$result) {
-        die("Error in Code: " . mysqli_error($connection));
-    }
-    else
-    {
-        echo "Tables Created Successfully!!";
-        
-    }
+if (!$result) {
+    die("Error in Code: " . mysqli_error($connection));
+} else {
+    echo "Tables Created Successfully!!";
+}
