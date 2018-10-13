@@ -37,14 +37,14 @@ function Db_connect()
  *
  * @function Db_query()
  */
-    function Db_query($query)
-    {
-        $connection = Db_connect();
+function Db_query($query)
+{
+    $connection = Db_connect();
 
-        $result = mysqli_query($connection, $query);
+    $result = mysqli_query($connection, $query);
 
-        return $result;
-    }
+    return $result;
+}
 
 /**
  * @param $query
@@ -53,31 +53,31 @@ function Db_connect()
  *
  * @function Db_select()
  */
-    function Db_select($query)
-    {
-        $rows = array();
-        $result = Db_query($query);
+function Db_select($query)
+{
+    $rows = array();
+    $result = Db_query($query);
 
-        if ($result === false) {
-            return false;
-        }
-
-        while ($row = mysqli_fetch_assoc($result)) {
-            $rows[] = $row;
-        }
-        return $rows;
+    if ($result === false) {
+        return false;
     }
+
+    while ($row = mysqli_fetch_assoc($result)) {
+        $rows[] = $row;
+    }
+    return $rows;
+}
 
 /**
  * @return string
  *
  * @function Db_error()
  */
-    function Db_error()
-    {
-        $connection = Db_connect();
-        return mysqli_error($connection);
-    }
+function Db_error()
+{
+    $connection = Db_connect();
+    return mysqli_error($connection);
+}
 
 /**
  * @param $value
@@ -86,10 +86,10 @@ function Db_connect()
  *
  * @function Db_quote()
  */
-    function Db_quote($value)
-    {
-        $connection = Db_connect();
+function Db_quote($value)
+{
+    $connection = Db_connect();
 
-        return "'" . mysqli_real_escape_string($connection, $value) . "'";
-    }
+    return "'" . mysqli_real_escape_string($connection, $value) . "'";
+}
 
