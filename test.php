@@ -24,5 +24,5 @@
 if ($result === false) {
     $error = db_error();
 } else {
-    echo "Inserted Data!!!!";
+    echo "Inserted Data!!!";
 }
