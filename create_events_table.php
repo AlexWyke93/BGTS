@@ -23,7 +23,7 @@
     $result = mysqli_query($connection, $newTable);
 
     if (!$result) {
-        die(db_quote("Error in Code: " . mysqli_error($connection)));
+        die(htmlentities(db_quote("Error in Code: " . mysqli_error($connection))));
     }
     else
     {
