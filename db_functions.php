@@ -1,12 +1,16 @@
 <?php
 /**
- * Created by IntelliJ IDEA.
- * User: minim
- * Date: 30/09/2018
- * Time: 02:18
+ * PHP version 7.2
+ *
+ * @category PHP
+ * @package  BGTS-BE
+ * @author   Alexander Wyke <alexwyke93@gmail.com>
+ * @license  none
+ * @link     n/a
  */
 
 /**
+ *
  * @return mysqli|string
  * @function Db_connect()
  */
@@ -14,7 +18,7 @@ function Db_connect()
 {
     static $connection;
 
-    if(!isset($connection)) {
+    if (!isset($connection)) {
         $config = parse_ini_file('../config.ini');
         $connection = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
     }
@@ -27,7 +31,9 @@ function Db_connect()
 }
 
 /**
+ *
  * @param $query
+ *
  * @return bool|mysqli_result
  * @function Db_query()
  */
@@ -40,7 +46,9 @@ function Db_connect()
     }
 
 /**
+ *
  * @param $query
+ *
  * @return array|bool
  * @function Db_select()
  */
@@ -59,6 +67,7 @@ function Db_connect()
     }
 
 /**
+ *
  * @return string
  * @function Db_error()
  */
@@ -68,7 +77,9 @@ function Db_connect()
     }
 
 /**
+ *
  * @param $value
+ *
  * @return string
  * @function Db_quote()
  */
