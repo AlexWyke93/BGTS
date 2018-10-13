@@ -1,7 +1,10 @@
 <?php
 /**
- * Created by IntelliJ IDEA.
- * User: minim
- * Date: 13/10/2018
- * Time: 08:24
+ * PHP version 7.2
+ *
+ * @category PHP
+ * @package  BGTS-BE
+ * @author   Alexander Wyke <alexwyke93@gmail.com>
+ * @license  none
+ * @link     n/a
  */

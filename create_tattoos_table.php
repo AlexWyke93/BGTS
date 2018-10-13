@@ -1,12 +1,13 @@
 <?php
 /**
- * Created by IntelliJ IDEA.
- * User: minim
- * Date: 29/09/2018
- * Time: 21:03
+ * PHP version 7.2
+ *
+ * @category PHP
+ * @package  BGTS-BE
+ * @author   Alexander Wyke <alexwyke93@gmail.com>
+ * @license  none
+ * @link     n/a
  */
-    /*ini_set('display_errors',1);
-    error_reporting(E_ALL);*/
 
     phpversion();
     require "db_functions.php";
