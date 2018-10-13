@@ -21,6 +21,7 @@
 
     if (!$result) {
         $error = db_error();
+        echo $error;
     }
     else
     {
