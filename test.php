@@ -1,6 +1,6 @@
 <?php
 /**
- * PHP version 7.2.10
+ * PHP version 7.2
  *
  * @category PHP
  * @package  BGTS-BE
