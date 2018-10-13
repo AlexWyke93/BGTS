@@ -21,7 +21,7 @@
     $result = mysqli_query($connection, $newTable);
 
     if (!$result) {
-        die("Error in Code: " . mysqli_error($connection));
+        $error = db_error();
     }
     else
     {
