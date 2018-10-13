@@ -1,11 +1,12 @@
 <?php
 
 /**
- * @category php
- * @package BGTS-BE
- * @author Alexander Wyke
- * @license none
- * @link n/a
+ *
+ * @category  php
+ * @package  BGTS-BE
+ * @author   Alexander Wyke <alexwyke93@gmail.com>
+ * @license  none
+ * @link     n/a
  */
 
     require "db_functions.php";
