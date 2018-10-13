@@ -1,9 +1,11 @@
 <?php
+
 /**
- * Created by IntelliJ IDEA.
- * User: minim
- * Date: 13/10/2018
- * Time: 03:55
+ * @category php
+ * @package BGTS-BE
+ * @author Alexander Wyke
+ * @license none
+ * @link n/a
  */
 
     require "db_functions.php";
@@ -19,8 +21,8 @@
         NULL,'Spike','I am a senior tattoo artist.','test')"
     );
 
-    if ($result === false) {
-        $error = db_error();
-    } else {
-        echo "Inserted Data!!!!";
-    }
+if ($result === false) {
+    $error = db_error();
+} else {
+    echo "Inserted Data!!!!";
+}
