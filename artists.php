@@ -18,7 +18,16 @@ include 'db_functions.php';
 
 $connection = Db_connect();
 
-$result = Db_select("SELECT * FROM artists");
+$result = Db_query("SELECT * FROM artists");
+
+
+if ($result === false) {
+    return false;
+}
+
+while ($row = mysqli_fetch_assoc($result)) {
+    echo "<h1>" . $row['artistName'] . "</h1>" . "<h3>" . $row['artistBio'] . "</h3>" . "<img src='" . $row['imageFN'] . "'/>";
+}
 
 ?>
 </body>
