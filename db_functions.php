@@ -95,4 +95,3 @@ function Db_quote($value)
 
     return "'" . mysqli_real_escape_string($connection, $value) . "'";
 }
-

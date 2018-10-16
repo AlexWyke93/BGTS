@@ -13,6 +13,11 @@
  * @license  none
  * @link     n/a
  */
+
+include 'db_functions.php';
+
+$result = Db_select("SELECT * FROM artists");
+
 ?>
 </body>
 </html>
