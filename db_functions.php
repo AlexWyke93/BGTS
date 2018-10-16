@@ -58,6 +58,8 @@ function Db_query($query)
  */
 function Db_select($query)
 {
+    $connection = Db_connect();
+
     $rows = array();
     $result = Db_query($query);
 
