@@ -20,8 +20,10 @@ function Db_connect()
 
     if (!isset($connection)) {
         $config = parse_ini_file('../config.ini');
-        $connection = mysqli_connect('localhost', $config['username'],
-            $config['password'], $config['dbname']);
+        $connection = mysqli_connect(
+            'localhost', $config['username'],
+            $config['password'], $config['dbname']
+        );
     }
 
     if ($connection === false) {
