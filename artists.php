@@ -16,6 +16,8 @@
 
 include 'db_functions.php';
 
+$connection = Db_connect();
+
 $result = Db_select("SELECT * FROM artists");
 
 ?>
