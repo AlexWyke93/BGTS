@@ -26,8 +26,8 @@
         <label for="artistBio">Artist Bio: </label>
         <textarea type="text" name="artistBio"></textarea>
 
-        <label for="artistAvatar">Artist Avatar: </label>
-        <input type="file" name="artistAvatar">
+        <label for="uploaded_file">Artist Avatar: </label>
+        <input type="file" name="uploaded_file">
         <!-- The max file size is within a hidden field.
         This is set to 2MB and will be handed later within
         the PHP script. -->
