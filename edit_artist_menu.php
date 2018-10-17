@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<?php
+include 'db_functions.php';
+
+$result = Db_query("SELECT artistId, artistName, imageFN FROM artists;"
+);
+
+while ($row=mysqli_fetch_array($result)) {
+    echo "<option value=" . $row['artistId'] . ">" . $row['artistName'] . "</option>";
+
+
+    echo "<a href='edit_artist_form.php?artistId=" . $row['artistId'] . "'>";
+        echo "<div>";
+            echo "<img src='" . $row['imageFN'] . "' alt='" . $row['artistName'] . "'/>";
+            echo "<h3>" . $row['artistName'] . "</h3>";
+        echo "</div>";
+    echo "</a>";
+}
+?>
+
+</body>
+</html>
