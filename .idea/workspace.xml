@@ -113,15 +113,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1571" />
+          <entry key="php" value="1573" />
           <entry key="sql" value="29" />
-          <entry key="txt" value="537" />
+          <entry key="txt" value="539" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1391" />
-          <entry key="PLAIN_TEXT" value="537" />
+          <entry key="PHP" value="1393" />
+          <entry key="PLAIN_TEXT" value="539" />
           <entry key="SQL" value="180" />
           <entry key="Scratch" value="29" />
         </counts>
@@ -179,7 +179,7 @@
         <entry file="file://$PROJECT_DIR$/artists.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+              <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -320,7 +320,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539796205949" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539796760808" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -398,14 +398,7 @@
       <workItem from="1538362371406" duration="2843000" />
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
-      <workItem from="1539414390509" duration="35818000" />
-    </task>
-    <task id="LOCAL-00018" summary="test.php - added phpversion() and changed query contents">
-      <created>1539431506239</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1539431506239</updated>
+      <workItem from="1539414390509" duration="36371000" />
     </task>
     <task id="LOCAL-00019" summary="general tweaks">
       <created>1539431763554</created>
@@ -743,11 +736,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539795743673</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="artists.php - displaying content 5">
+      <created>1539796215704</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1539796215704</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54833000" />
+    <option name="totallyTimeSpent" value="55386000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,7 +837,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed db_quote() and replaced with mysqli_real_escape_string()" />
     <MESSAGE value="Added db_quote() to improve security." />
     <MESSAGE value="Added htmlentities() to improve security." />
     <MESSAGE value="Change include code" />
@@ -862,7 +861,8 @@
     <MESSAGE value="artists.php - displaying content 2" />
     <MESSAGE value="artists.php - displaying content 3" />
     <MESSAGE value="artists.php - displaying content 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="artists.php - displaying content 4" />
+    <MESSAGE value="artists.php - displaying content 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="artists.php - displaying content 5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Documents/Server Stuff/Website/connect_db.php">
@@ -983,7 +983,7 @@
     <entry file="file://$PROJECT_DIR$/artists.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+          <caret line="30" column="78" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
         </state>
       </provider>
     </entry>
