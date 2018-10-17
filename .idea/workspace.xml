@@ -100,28 +100,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
-          <entry key="php" value="5" />
+          <entry key="php" value="7" />
           <entry key="sql" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="5" />
+          <entry key="PHP" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1524" />
+          <entry key="php" value="1562" />
           <entry key="sql" value="29" />
-          <entry key="txt" value="532" />
+          <entry key="txt" value="534" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1344" />
-          <entry key="PLAIN_TEXT" value="532" />
+          <entry key="PHP" value="1382" />
+          <entry key="PLAIN_TEXT" value="534" />
           <entry key="SQL" value="180" />
           <entry key="Scratch" value="29" />
         </counts>
@@ -140,22 +140,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create_events_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-              <folding>
-                <element signature="e#6#159#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_tables.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#6#159#0#PHP" expanded="true" />
               </folding>
@@ -167,7 +155,7 @@
         <entry file="file://$PROJECT_DIR$/db_functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="72" selection-end-column="17" />
+              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="72" selection-end-column="17" />
               <folding>
                 <element signature="e#6#162#0#PHP" expanded="true" />
               </folding>
@@ -179,7 +167,7 @@
         <entry file="file://$PROJECT_DIR$/create_artists_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
               <folding>
                 <element signature="e#6#159#0#PHP" expanded="true" />
               </folding>
@@ -190,8 +178,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artists.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="442">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -288,7 +276,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="673" />
     <option name="height" value="745" />
@@ -332,7 +320,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539731367154" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539778356605" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -410,14 +398,7 @@
       <workItem from="1538362371406" duration="2843000" />
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
-      <workItem from="1539414390509" duration="31566000" />
-    </task>
-    <task id="LOCAL-00012" summary="test.php - reduced line lengths &amp; fixed if/else">
-      <created>1539429305443</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1539429305443</updated>
+      <workItem from="1539414390509" duration="33685000" />
     </task>
     <task id="LOCAL-00013" summary="test.php - reduced line lengths &amp; fixed if/else">
       <created>1539429434973</created>
@@ -755,11 +736,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539731187579</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="artists.php - displaying content 2">
+      <created>1539731377568</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1539731377568</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50581000" />
+    <option name="totallyTimeSpent" value="52700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,7 +759,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="673" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20196672" />
@@ -872,7 +860,8 @@
     <MESSAGE value="updated artists.php" />
     <MESSAGE value="updated db_functions.php" />
     <MESSAGE value="artists.php - displaying content" />
-    <option name="LAST_COMMIT_MESSAGE" value="artists.php - displaying content" />
+    <MESSAGE value="artists.php - displaying content 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="artists.php - displaying content 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Documents/Server Stuff/Website/connect_db.php">
@@ -908,7 +897,7 @@
     <entry file="file://$PROJECT_DIR$/create_tables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#6#159#0#PHP" expanded="true" />
           </folding>
@@ -934,13 +923,6 @@
         <state relative-caret-position="-1010" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_artist_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/OneDrive - Xampp/SoSweet/Pages/chocolates.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1746" />
@@ -959,7 +941,7 @@
     <entry file="file://$PROJECT_DIR$/create_artists_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
             <element signature="e#6#159#0#PHP" expanded="true" />
           </folding>
@@ -969,17 +951,38 @@
     <entry file="file://$PROJECT_DIR$/db_functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="72" selection-end-column="17" />
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="72" selection-end-column="17" />
           <folding>
             <element signature="e#6#162#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/add_artist_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/OneDrive - Xampp/SoSweet/Pages/add_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="121" lean-forward="true" selection-start-line="18" selection-start-column="121" selection-end-line="18" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/OneDrive - Xampp/SoSweet/Pages/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artists.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="442">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
