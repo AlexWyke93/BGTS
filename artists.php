@@ -28,7 +28,7 @@ if ($result === false) {
 while ($row = mysqli_fetch_assoc($result)) {
     echo "<h1>" . $row['artistName'] . "</h1>" .
         "<h3>" . $row['artistBio'] . "</h3>" .
-        "<img src='" . $row['imageFN'] . "' alt='" . $row['artistName'] . "\`s Avatar' />";
+        "<img src='" . $row['imageFN'] . "' alt='" . $row['artistName'] . "\'s Avatar' />";
 }
 
 ?>
