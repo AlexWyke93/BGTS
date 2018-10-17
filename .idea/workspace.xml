@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24137ec9-d635-4f6a-afc4-a67f9c2d3578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/add_artist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_artist_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_artist_form.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,15 +113,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1865" />
+          <entry key="php" value="1878" />
           <entry key="sql" value="29" />
-          <entry key="txt" value="540" />
+          <entry key="txt" value="575" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1684" />
-          <entry key="PLAIN_TEXT" value="540" />
+          <entry key="PHP" value="1697" />
+          <entry key="PLAIN_TEXT" value="575" />
           <entry key="SQL" value="181" />
           <entry key="Scratch" value="29" />
         </counts>
@@ -207,16 +205,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/add_artist_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+            <state relative-caret-position="340">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_artist.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -271,11 +269,11 @@
         <option value="$PROJECT_DIR$/create_tattoos_table.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/drop_tables.php" />
-        <option value="$PROJECT_DIR$/add_artist_form.php" />
         <option value="$PROJECT_DIR$/db_functions.php" />
         <option value="$PROJECT_DIR$/artists.php" />
         <option value="$PROJECT_DIR$/add_artist.php" />
         <option value="$PROJECT_DIR$/upload.php" />
+        <option value="$PROJECT_DIR$/add_artist_form.php" />
       </list>
     </option>
   </component>
@@ -342,7 +340,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539799260053" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539799951885" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -420,14 +418,7 @@
       <workItem from="1538362371406" duration="2843000" />
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
-      <workItem from="1539414390509" duration="37891000" />
-    </task>
-    <task id="LOCAL-00020" summary="general tweaks">
-      <created>1539431955431</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1539431955431</updated>
+      <workItem from="1539414390509" duration="38587000" />
     </task>
     <task id="LOCAL-00021" summary="general tweaks">
       <created>1539432224741</created>
@@ -765,11 +756,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539796770650</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="added upload.php &amp; add_artist.php">
+      <created>1539799297288</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1539799297288</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56906000" />
+    <option name="totallyTimeSpent" value="57602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,7 +782,7 @@
     <frame x="-7" y="0" width="697" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20094192" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20094192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -859,7 +857,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added htmlentities() to improve security." />
     <MESSAGE value="Change include code" />
     <MESSAGE value="Change include code to require" />
     <MESSAGE value="test.php - reduced line lengths" />
@@ -884,7 +881,8 @@
     <MESSAGE value="artists.php - displaying content 4" />
     <MESSAGE value="artists.php - displaying content 5" />
     <MESSAGE value="artists.php - displaying content 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="artists.php - displaying content 6" />
+    <MESSAGE value="added upload.php &amp; add_artist.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="added upload.php &amp; add_artist.php" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Documents/Server Stuff/Website/connect_db.php">
@@ -1002,10 +1000,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_artist_form.php">
+    <entry file="file://$PROJECT_DIR$/add_artist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+        <state relative-caret-position="476">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1016,10 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_artist.php">
+    <entry file="file://$PROJECT_DIR$/add_artist_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="340">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
         </state>
       </provider>
     </entry>
