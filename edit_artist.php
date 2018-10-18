@@ -19,7 +19,7 @@ $image = htmlentities($_POST['uploaded_file']);
 try
 {
     $result = Db_query(
-        "UPDATE artists SET artistName='" . $artistName . "', artistBio='" . $artistBio . "', imageFN='" . $image . "', WHERE artistId=" . $id . ";"
+        "UPDATE artists SET artistName='" . $artistName . "', artistBio='" . $artistBio . "', imageFN='" . $image . "', WHERE artistId='" . $id . "';"
     );
 
     echo "Artist: " . $artistName . " has been edited!!";
