@@ -24,8 +24,7 @@ try
     $result = Db_query(
         "UPDATE artists 
                   SET artistName='" . $artistName . "', 
-                  artistBio='" . $artistBio . "', 
-                  /*imageFN='" . $path . "', */
+                  artistBio='" . $artistBio . "',
                   WHERE artistId=" . $id . ";"
     );
 
