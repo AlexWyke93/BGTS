@@ -15,16 +15,17 @@ $id = $_POST['id'];
 $artistName = htmlentities($_POST['artistName']);
 $artistBio = htmlentities($_POST['artistBio']);
 
-/*include 'upload.php';
+include 'upload.php';
 
-$path = htmlentities("Uploads/" . $_FILES['uploaded_file']['name']);*/
+$path = htmlentities("Uploads/" . $_FILES['uploaded_file']['name']);
 
 try
 {
     $result = Db_query(
         "UPDATE artists 
                   SET artistName='" . $artistName . "', 
-                  artistBio='" . $artistBio . "'
+                  artistBio='" . $artistBio . "',
+                  imageFN='" . $path . "'
                   WHERE artistId=" . $id . ";"
     );
 
