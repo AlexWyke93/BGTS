@@ -28,7 +28,12 @@ try
                   WHERE artistId=" . $id . ";"
     );
 
-    //echo "Artist: " . $artistName . " has been edited!!";
+
+    if (!$result) {
+        die($error = Db_error());
+    } else {
+        echo "Artist: " . $artistName . " has been edited!!";
+    }
 }
 catch (Exception $e)
 {
