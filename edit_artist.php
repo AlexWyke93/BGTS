@@ -14,13 +14,16 @@ include 'db_functions.php';
 $id = $_POST['id'];
 $artistName = htmlentities($_POST['artistName']);
 $artistBio = htmlentities($_POST['artistBio']);
-$image = $_POST['uploaded_file'];
+
+include 'upload.php';
+
+$path = "Uploads/" . $_FILES['uploaded_file']['name'];
 
 try
 {
     $result = Db_query(
         "UPDATE artists SET artistName='" . $artistName .
-        "', artistBio='" . $artistBio . "', imageFN='" . $image .
+        "', artistBio='" . $artistBio . "', imageFN='" . $path .
         "', WHERE artistId='" . $id . "';"
     );
 
