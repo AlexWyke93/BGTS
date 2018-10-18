@@ -15,9 +15,9 @@ $id = $_POST['id'];
 $artistName = htmlentities($_POST['artistName']);
 $artistBio = htmlentities($_POST['artistBio']);
 
-include 'upload.php';
+/*include 'upload.php';
 
-$path = htmlentities("Uploads/" . $_FILES['uploaded_file']['name']);
+$path = htmlentities("Uploads/" . $_FILES['uploaded_file']['name']);*/
 
 try
 {
@@ -25,7 +25,7 @@ try
         "UPDATE artists 
                   SET artistName='" . $artistName . "', 
                   artistBio='" . $artistBio . "', 
-                  imageFN='" . $path . "', 
+                  /*imageFN='" . $path . "', */
                   WHERE artistId=" . $id . ";"
     );
 
