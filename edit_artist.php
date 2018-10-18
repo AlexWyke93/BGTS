@@ -11,10 +11,10 @@
 <?php
 include 'db_functions.php';
 
-$id = $_POST['artistId'];
+$id = $_POST['id'];
 $artistName = htmlentities($_POST['artistName']);
 $artistBio = htmlentities($_POST['artistBio']);
-$image = htmlentities($_POST['imageFN']);
+$image = htmlentities($_POST['uploaded_file']);
 
 try
 {
