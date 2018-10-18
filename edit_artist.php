@@ -14,13 +14,7 @@ include 'db_functions.php';
 $id = $_POST['id'];
 $artistName = htmlentities($_POST['artistName']);
 $artistBio = htmlentities($_POST['artistBio']);
-
-if (isset($_POST['uploaded_file']))
-{
-    $image = htmlentities($_POST['uploaded_file']);
-    echo "Yes!!";
-}
-
+$image = $_POST['uploaded_file'];
 
 try
 {
