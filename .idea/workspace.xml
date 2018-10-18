@@ -100,30 +100,30 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
-          <entry key="php" value="14" />
-          <entry key="sql" value="4" />
+          <entry key="php" value="16" />
+          <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="14" />
+          <entry key="PHP" value="16" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scratch" value="4" />
+          <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3291" />
-          <entry key="sql" value="34" />
-          <entry key="txt" value="720" />
+          <entry key="php" value="3305" />
+          <entry key="sql" value="35" />
+          <entry key="txt" value="743" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3110" />
-          <entry key="PLAIN_TEXT" value="720" />
+          <entry key="PHP" value="3124" />
+          <entry key="PLAIN_TEXT" value="743" />
           <entry key="SQL" value="181" />
-          <entry key="Scratch" value="34" />
+          <entry key="Scratch" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -140,6 +140,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artists.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -151,8 +160,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/edit_artist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            <state relative-caret-position="246">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit_artist_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit_artist_menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -160,17 +187,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_artist_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="238">
               <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="35" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -198,24 +216,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="29" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_artist_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_artist_menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -250,7 +250,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dbconn.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql" />
         <option value="$PROJECT_DIR$/create_artists_table.php" />
         <option value="$PROJECT_DIR$/create_events_table.php" />
         <option value="$PROJECT_DIR$/create_tables.php" />
@@ -267,6 +266,7 @@
         <option value="$PROJECT_DIR$/edit_artist_menu.php" />
         <option value="$PROJECT_DIR$/edit_artist_form.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql" />
         <option value="$PROJECT_DIR$/edit_artist.php" />
       </list>
     </option>
@@ -290,7 +290,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -349,8 +349,8 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539821141862" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539821447367" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -428,14 +428,7 @@
       <workItem from="1538362371406" duration="2843000" />
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
-      <workItem from="1539414390509" duration="45833000" />
-    </task>
-    <task id="LOCAL-00024" summary="test.php - version specification">
-      <created>1539435128569</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1539435128569</updated>
+      <workItem from="1539414390509" duration="46138000" />
     </task>
     <task id="LOCAL-00025" summary="test.php - version specification update">
       <created>1539435772934</created>
@@ -773,11 +766,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539805301726</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="edit_artist.php added">
+      <created>1539821161312</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1539821161312</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64848000" />
+    <option name="totallyTimeSpent" value="65153000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,7 +789,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19937205" />
@@ -800,7 +800,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32903227" />
-      <window_info anchor="bottom" id="Database Console" order="1" weight="0.35188216" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="1" visible="true" weight="0.3467742" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="4" />
@@ -867,7 +867,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test.php - reduced line lengths &amp; fixed if/else" />
     <MESSAGE value="test.php - edit comments" />
     <MESSAGE value="test.php - added phpversion() and changed query contents" />
     <MESSAGE value="general tweaks - new" />
@@ -892,7 +891,8 @@
     <MESSAGE value="updated add_artist_form.php - changed name for image selector input item" />
     <MESSAGE value="added delete_artist_menu.php and delete_artist.php" />
     <MESSAGE value="edit artist pages added" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit artist pages added" />
+    <MESSAGE value="edit_artist.php added" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit_artist.php added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Documents/Server Stuff/Website/connect_db.php">
@@ -1017,35 +1017,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit_artist_menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit_artist_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console_2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_artist_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="35" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
@@ -1066,10 +1038,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/add_artist_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="35" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_artist_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_artist_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/edit_artist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state relative-caret-position="246">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
