@@ -17,14 +17,14 @@ $artistBio = htmlentities($_POST['artistBio']);
 
 include 'upload.php';
 
-$path = "Uploads/" . $_FILES['uploaded_file']['name'];
+$path = htmlentities("Uploads/" . $_FILES['uploaded_file']['name']);
 
 try
 {
     $result = Db_query(
         "UPDATE artists SET artistName='" . $artistName .
         "', artistBio='" . $artistBio . "', imageFN='" . $path .
-        "', WHERE artistId='" . $id . "';"
+        "', WHERE artistId=" . $id . ";"
     );
 
     echo "Artist: " . $artistName . " has been edited!!";
