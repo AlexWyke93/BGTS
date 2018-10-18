@@ -29,7 +29,7 @@ try
                   WHERE artistId=" . $id . ";"
     );
 
-    echo "Artist: " . $artistName . " has been edited!!";
+    //echo "Artist: " . $artistName . " has been edited!!";
 }
 catch (Exception $e)
 {
