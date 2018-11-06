@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24137ec9-d635-4f6a-afc4-a67f9c2d3578" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/add_artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_artist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delete_artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete_artist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delete_artist_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/delete_artist_menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit_artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit_artist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit_artist_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit_artist_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit_artist_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit_artist_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_event_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,28 +102,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
-          <entry key="php" value="16" />
+          <entry key="php" value="18" />
           <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="16" />
+          <entry key="PHP" value="18" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3526" />
+          <entry key="php" value="3662" />
           <entry key="sql" value="118" />
-          <entry key="txt" value="807" />
+          <entry key="txt" value="828" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3330" />
-          <entry key="PLAIN_TEXT" value="807" />
+          <entry key="PHP" value="3466" />
+          <entry key="PLAIN_TEXT" value="828" />
           <entry key="SQL" value="196" />
           <entry key="Scratch" value="118" />
         </counts>
@@ -150,15 +146,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="103" selection-start-column="103" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artists.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -193,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_artist_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="35" selection-end-column="62" />
+            <state>
+              <caret selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -209,15 +196,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/delete_artist_menu.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -226,11 +204,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/delete_artist.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/add_event_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_events_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -274,6 +270,7 @@
         <option value="$PROJECT_DIR$/add_artist.php" />
         <option value="$PROJECT_DIR$/delete_artist_menu.php" />
         <option value="$PROJECT_DIR$/delete_artist.php" />
+        <option value="$PROJECT_DIR$/add_event_form.php" />
       </list>
     </option>
   </component>
@@ -320,7 +317,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,15 +345,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539827687035" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541546051356" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -435,14 +432,7 @@
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
       <workItem from="1539414390509" duration="52171000" />
-      <workItem from="1541534699578" duration="410000" />
-    </task>
-    <task id="LOCAL-00043" summary="general tweaks">
-      <created>1539445305446</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1539445305446</updated>
+      <workItem from="1541534699578" duration="2783000" />
     </task>
     <task id="LOCAL-00044" summary="general tweaks 2">
       <created>1539445358673</created>
@@ -780,11 +770,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539826756895</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Fixed &lt;head&gt; sections">
+      <created>1541535196588</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1541535196589</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71596000" />
+    <option name="totallyTimeSpent" value="73969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -799,7 +796,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19937205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09909228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -827,7 +824,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.15885022" />
+      <window_info anchor="right" id="Database" order="7" weight="0.15885022" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32967034" />
     </layout>
   </component>
@@ -874,7 +871,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test.php - version specification update new" />
     <MESSAGE value="general tweaks" />
     <MESSAGE value="general tweaks 2" />
     <MESSAGE value="db_functions.php" />
@@ -899,7 +895,8 @@
     <MESSAGE value="edit_artist.php edited again" />
     <MESSAGE value="edit_artist.php &amp; edit_artist_form.php edited" />
     <MESSAGE value="edit files - edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit files - edited" />
+    <MESSAGE value="Fixed &lt;head&gt; sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed &lt;head&gt; sections" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Documents/Server Stuff/Website/connect_db.php" />
@@ -912,13 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_events_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -997,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_artist_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="35" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_artist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1028,7 +1011,28 @@
     <entry file="file://$PROJECT_DIR$/delete_artist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_artist_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_events_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_event_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
