@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24137ec9-d635-4f6a-afc4-a67f9c2d3578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/add_event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,27 +101,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
-          <entry key="php" value="19" />
+          <entry key="php" value="20" />
           <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="19" />
+          <entry key="PHP" value="20" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3762" />
+          <entry key="php" value="3956" />
           <entry key="sql" value="118" />
           <entry key="txt" value="854" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3566" />
+          <entry key="PHP" value="3760" />
           <entry key="PLAIN_TEXT" value="854" />
           <entry key="SQL" value="196" />
           <entry key="Scratch" value="118" />
@@ -145,15 +145,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_artist_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -212,11 +203,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_event.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -271,6 +271,7 @@
         <option value="$PROJECT_DIR$/delete_artist.php" />
         <option value="$PROJECT_DIR$/add_event_form.php" />
         <option value="$PROJECT_DIR$/add_event.php" />
+        <option value="$PROJECT_DIR$/events.php" />
       </list>
     </option>
   </component>
@@ -352,7 +353,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541546590657" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541547209858" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -432,14 +433,7 @@
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
       <workItem from="1539414390509" duration="52171000" />
-      <workItem from="1541534699578" duration="3316000" />
-    </task>
-    <task id="LOCAL-00045" summary="general tweaks 2">
-      <created>1539445910634</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1539445910634</updated>
+      <workItem from="1541534699578" duration="3931000" />
     </task>
     <task id="LOCAL-00046" summary="db_functions.php">
       <created>1539446260468</created>
@@ -777,11 +771,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541546088610</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="created add_event.php">
+      <created>1541546620971</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1541546620971</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74502000" />
+    <option name="totallyTimeSpent" value="75117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,7 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="general tweaks 2" />
     <MESSAGE value="db_functions.php" />
     <MESSAGE value="db_functions.php - tweaking" />
     <MESSAGE value="added artists.php file" />
@@ -896,7 +896,8 @@
     <MESSAGE value="edit files - edited" />
     <MESSAGE value="Fixed &lt;head&gt; sections" />
     <MESSAGE value="created add_event_form.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="created add_event_form.php" />
+    <MESSAGE value="created add_event.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="created add_event.php" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Documents/Server Stuff/Website/connect_db.php" />
@@ -1040,6 +1041,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
