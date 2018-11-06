@@ -34,7 +34,7 @@ while ($row = mysqli_fetch_assoc($result)) {
         "<h1>" . $row['eventDate'] . "</h1>" .
         "<h3>" . $row['eventDescription'] . "</h3>" .
         "<p>" . $row['addedDate'] . "</p>" .
-        "<img src='" . $row['imageFN'] . "' alt='" . $row['eventTitle'] . "/>";
+        "<img src='" . $row['imageFN'] . "' alt='" . $row['eventTitle'] . "'/>";
 }
 
 ?>
