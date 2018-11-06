@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24137ec9-d635-4f6a-afc4-a67f9c2d3578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,15 +114,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3956" />
+          <entry key="php" value="3973" />
           <entry key="sql" value="118" />
-          <entry key="txt" value="854" />
+          <entry key="txt" value="875" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3760" />
-          <entry key="PLAIN_TEXT" value="854" />
+          <entry key="PHP" value="3777" />
+          <entry key="PLAIN_TEXT" value="875" />
           <entry key="SQL" value="196" />
           <entry key="Scratch" value="118" />
         </counts>
@@ -215,8 +215,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="555">
+              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -353,7 +353,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541547209858" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541547403790" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -433,14 +433,7 @@
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
       <workItem from="1539414390509" duration="52171000" />
-      <workItem from="1541534699578" duration="3931000" />
-    </task>
-    <task id="LOCAL-00046" summary="db_functions.php">
-      <created>1539446260468</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1539446260468</updated>
+      <workItem from="1541534699578" duration="4124000" />
     </task>
     <task id="LOCAL-00047" summary="db_functions.php">
       <created>1539446489307</created>
@@ -778,11 +771,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541546620971</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="created events.php">
+      <created>1541547228817</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1541547228817</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75117000" />
+    <option name="totallyTimeSpent" value="75310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,7 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="db_functions.php" />
     <MESSAGE value="db_functions.php - tweaking" />
     <MESSAGE value="added artists.php file" />
     <MESSAGE value="added new files" />
@@ -897,7 +896,8 @@
     <MESSAGE value="Fixed &lt;head&gt; sections" />
     <MESSAGE value="created add_event_form.php" />
     <MESSAGE value="created add_event.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="created add_event.php" />
+    <MESSAGE value="created events.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="created events.php" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Documents/Server Stuff/Website/connect_db.php" />
@@ -1030,13 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_events_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1044,10 +1037,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/create_events_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="555">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
         </state>
       </provider>
     </entry>
