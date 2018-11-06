@@ -114,15 +114,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3973" />
+          <entry key="php" value="3974" />
           <entry key="sql" value="118" />
-          <entry key="txt" value="875" />
+          <entry key="txt" value="881" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3777" />
-          <entry key="PLAIN_TEXT" value="875" />
+          <entry key="PHP" value="3778" />
+          <entry key="PLAIN_TEXT" value="881" />
           <entry key="SQL" value="196" />
           <entry key="Scratch" value="118" />
         </counts>
@@ -215,8 +215,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="470">
+              <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -353,7 +353,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541547403790" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541547577839" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -433,14 +433,7 @@
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
       <workItem from="1539414390509" duration="52171000" />
-      <workItem from="1541534699578" duration="4124000" />
-    </task>
-    <task id="LOCAL-00047" summary="db_functions.php">
-      <created>1539446489307</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1539446489307</updated>
+      <workItem from="1541534699578" duration="4297000" />
     </task>
     <task id="LOCAL-00048" summary="db_functions.php">
       <created>1539446614138</created>
@@ -778,11 +771,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541547228817</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="edited events.php">
+      <created>1541547417176</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1541547417176</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75310000" />
+    <option name="totallyTimeSpent" value="75483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,7 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="db_functions.php - tweaking" />
     <MESSAGE value="added artists.php file" />
     <MESSAGE value="added new files" />
     <MESSAGE value="updated artists.php" />
@@ -897,7 +896,8 @@
     <MESSAGE value="created add_event_form.php" />
     <MESSAGE value="created add_event.php" />
     <MESSAGE value="created events.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="created events.php" />
+    <MESSAGE value="edited events.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited events.php" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Documents/Server Stuff/Website/connect_db.php" />
@@ -1046,8 +1046,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="470">
+          <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
         </state>
       </provider>
     </entry>
