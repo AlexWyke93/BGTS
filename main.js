@@ -1,1 +1,2 @@
-document.querySelector("#eventDate").min = new Date();
+let today = new Date().toISOString().substr(0, 10);
+document.querySelector("#today").min = today;
