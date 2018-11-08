@@ -16,7 +16,6 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <title>Add Event Form</title>
-    <script src="main.js"></script>
 </head>
 <body>
 <h1>New Artist</h1>
@@ -42,5 +41,8 @@
 
     <input type="submit" name="submit" value="Add Event">
 </form>
+
+
+<script src="main.js" rel="script"></script>
 </body>
 </html>
