@@ -1,1 +1,1 @@
-document.querySelector("#today").min = new Date();
+document.querySelector("#eventDate").min = new Date();
