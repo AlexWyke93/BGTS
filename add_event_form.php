@@ -25,12 +25,10 @@
     <input type="text" name="eventName">
 
     <label for="eventDate">Event Date: </label>
-    <input type="date" name="eventDate"
-           value="<?php echo date('M js y'); ?>"
-           min="<?php echo date('M js y'); ?>">
+    <input type="date" name="eventDate" id="eventDate">
 
     <label for="eventTime">Event Time: </label>
-    <input type="time" name="eventTime" id="eventTime">
+    <input type="time" name="eventTime">
 
     <label for="eventDesc">Event Description: </label>
     <textarea type="text" name="eventDesc"></textarea>
