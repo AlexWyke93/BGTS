@@ -25,8 +25,8 @@
 
     <label for="eventDate">Event Date: </label>
     <input type="date" name="eventDate"
-           value="2018-01-01"
-           min="2018-01-01">
+           value="<?php echo date('M js y G:i'); ?>"
+           min="<?php echo date('M js y G:i'); ?>">
 
     <label for="eventDesc">Event Description: </label>
     <textarea type="text" name="eventDesc"></textarea>
