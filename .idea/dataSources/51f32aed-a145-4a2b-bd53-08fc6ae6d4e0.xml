@@ -1011,55 +1011,61 @@
     </column>
     <column id="252" parent="243" name="eventDate">
       <Position>3</Position>
-      <DataType>datetime|0s</DataType>
+      <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="243" name="eventDescription">
+    <column id="253" parent="243" name="eventTime">
       <Position>4</Position>
+      <DataType>time|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="254" parent="243" name="eventDescription">
+      <Position>5</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="254" parent="243" name="addedDate">
-      <Position>5</Position>
+    <column id="255" parent="243" name="addedDate">
+      <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
       <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
     </column>
-    <column id="255" parent="243" name="imageFN">
-      <Position>6</Position>
+    <column id="256" parent="243" name="imageFN">
+      <Position>7</Position>
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="256" parent="243" name="PRIMARY">
+    <key id="257" parent="243" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>eventId</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="257" parent="244" name="tattooId">
+    <column id="258" parent="244" name="tattooId">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="258" parent="244" name="artistId">
+    <column id="259" parent="244" name="artistId">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="244" name="tattooTitle">
+    <column id="260" parent="244" name="tattooTitle">
       <Position>3</Position>
       <DataType>varchar(150)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="244" name="addedDate">
+    <column id="261" parent="244" name="addedDate">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
@@ -1067,47 +1073,47 @@
       <ColumnKind>normal</ColumnKind>
       <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
     </column>
-    <column id="261" parent="244" name="tattooDescription">
+    <column id="262" parent="244" name="tattooDescription">
       <Position>5</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="244" name="tattooType">
+    <column id="263" parent="244" name="tattooType">
       <Position>6</Position>
       <DataType>varchar(150)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="263" parent="244" name="imageFN">
+    <column id="264" parent="244" name="imageFN">
       <Position>7</Position>
       <DataType>varchar(200)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="264" parent="244" name="tattooId">
+    <index id="265" parent="244" name="tattooId">
       <ColNames>tattooId</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="265" parent="244" name="artistId">
+    <index id="266" parent="244" name="artistId">
       <ColNames>artistId</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="266" parent="244" name="PRIMARY">
+    <key id="267" parent="244" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>tattooId</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="267" parent="244" name="tattooId">
+    <key id="268" parent="244" name="tattooId">
       <ColNames>tattooId</ColNames>
       <UnderlyingIndexName>tattooId</UnderlyingIndexName>
     </key>
-    <key id="268" parent="244" name="artistId">
+    <key id="269" parent="244" name="artistId">
       <ColNames>artistId</ColNames>
       <UnderlyingIndexName>artistId</UnderlyingIndexName>
     </key>
-    <foreign-key id="269" parent="244" name="tattoos_ibfk_1">
+    <foreign-key id="270" parent="244" name="tattoos_ibfk_1">
       <ColNames>artistId</ColNames>
       <RefSchemaName>bgts</RefSchemaName>
       <RefTableName>artists</RefTableName>

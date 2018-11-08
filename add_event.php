@@ -12,6 +12,7 @@ include 'db_functions.php';
 
 $eventName = htmlentities($_POST['eventName']);
 $eventDate = htmlentities($_POST['eventDate']);
+$eventTime = htmlentities($_POST['eventTime']);
 $eventDesc = htmlentities($_POST['eventDesc']);
 
 include 'upload.php';
@@ -19,7 +20,7 @@ include 'upload.php';
 $path = "Uploads/" . $_FILES['uploaded_file']['name'];
 
 $result = Db_query("INSERT INTO events VALUES (
-NULL, '$eventName', '$eventDate', '$eventDesc', NULL, '$path'
+NULL, '$eventName', '$eventDate', '$eventTime', '$eventDesc', NULL, '$path'
 )"
 );
 

@@ -17,7 +17,8 @@
         "CREATE TABLE events (
           eventId INT AUTO_INCREMENT PRIMARY KEY NOT NULL UNIQUE,
           eventTitle VARCHAR(150) NOT NULL,
-          eventDate DATETIME NOT NULL,
+          eventDate DATE NOT NULL,
+          eventTime TIME NOT NULL,
           eventDescription TEXT NOT NULL,
           addedDate TIMESTAMP NOT NULL,
           imageFN VARCHAR(200) NOT NULL

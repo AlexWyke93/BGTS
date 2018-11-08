@@ -16,6 +16,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <title>Add Event Form</title>
+    <script src="main.js"></script>
 </head>
 <body>
 <h1>New Artist</h1>
@@ -25,8 +26,11 @@
 
     <label for="eventDate">Event Date: </label>
     <input type="date" name="eventDate"
-           value="<?php echo date('M js y G:i'); ?>"
-           min="<?php echo date('M js y G:i'); ?>">
+           value="<?php echo date('M js y'); ?>"
+           min="<?php echo date('M js y'); ?>">
+
+    <label for="eventTime">Event Time: </label>
+    <input type="time" name="eventTime" id="eventTime">
 
     <label for="eventDesc">Event Description: </label>
     <textarea type="text" name="eventDesc"></textarea>
