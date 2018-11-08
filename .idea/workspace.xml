@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24137ec9-d635-4f6a-afc4-a67f9c2d3578" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/add_event_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_event_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -124,7 +125,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="15" />
+          <entry key="js" value="35" />
           <entry key="php" value="4446" />
           <entry key="sql" value="157" />
           <entry key="txt" value="983" />
@@ -132,7 +133,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="15" />
+          <entry key="JavaScript" value="35" />
           <entry key="PHP" value="4249" />
           <entry key="PLAIN_TEXT" value="983" />
           <entry key="SQL" value="197" />
@@ -156,7 +157,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -174,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/edit_event.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -200,8 +201,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="17">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -219,7 +220,7 @@
         <entry file="file://$PROJECT_DIR$/create_events_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="201">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="24" selection-end-column="10" />
+              <caret line="24" column="10" selection-start-line="16" selection-start-column="9" selection-end-line="24" selection-end-column="10" />
               <folding>
                 <element signature="e#6#159#0#PHP" expanded="true" />
               </folding>
@@ -285,6 +286,12 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -362,15 +369,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541644645123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541645093429" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.php.tools.quality.phpcs.PhpCSConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -452,14 +460,7 @@
       <workItem from="1538400828684" duration="7527000" />
       <workItem from="1539391297611" duration="8645000" />
       <workItem from="1539414390509" duration="52171000" />
-      <workItem from="1541534699578" duration="12138000" />
-    </task>
-    <task id="LOCAL-00055" summary="added artists.php file">
-      <created>1539704637847</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1539704637847</updated>
+      <workItem from="1541534699578" duration="12578000" />
     </task>
     <task id="LOCAL-00056" summary="updated db_functions.php">
       <created>1539705722000</created>
@@ -797,11 +798,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541644525263</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="made changes">
+      <created>1541644651388</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1541644651388</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83324000" />
+    <option name="totallyTimeSpent" value="83764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,6 +953,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="72" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#162#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,7 +1028,7 @@
     <entry file="file://$PROJECT_DIR$/edit_event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1075,14 +1086,14 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/51f32aed-a145-4a2b-bd53-08fc6ae6d4e0/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/create_events_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="24" selection-end-column="10" />
+          <caret line="24" column="10" selection-start-line="16" selection-start-column="9" selection-end-line="24" selection-end-column="10" />
           <folding>
             <element signature="e#6#159#0#PHP" expanded="true" />
           </folding>
@@ -1105,8 +1116,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
