@@ -7,8 +7,8 @@
     <title>Delete Event Menu</title>
 </head>
 <body>
-<form role="form" method="POST" action="delete_artist.php">
-    <label for="events">Artists: </label>
+<form role="form" method="POST" action="delete_event.php">
+    <label for="events">Events: </label>
     <select name="events">
 
         <?php
