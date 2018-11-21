@@ -27,7 +27,10 @@
     <input type="date" name="eventDate" id="eventDate">
 
     <label for="eventTime">Event Time: </label>
-    <input type="time" name="eventTime">
+    <input type="time" name="eventTime"
+           value="9:00"
+           min="9:00"
+           max="21:00">
 
     <label for="eventDesc">Event Description: </label>
     <textarea type="text" name="eventDesc"></textarea>

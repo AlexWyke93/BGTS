@@ -24,8 +24,9 @@ if ($id != NULL || $id != 0) {
         $id = $row[0];
         $eventName = $row[1];
         $eventDate = $row[2];
-        $eventDescription = $row[3];
-        $path = $row[5];
+        $eventTime = $row[3];
+        $eventDescription = $row[4];
+        $path = $row[6];
     }
     catch (Exception $e)
     {
