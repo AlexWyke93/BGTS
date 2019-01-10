@@ -26,7 +26,6 @@ if ($id != NULL || $id != 0) {
         $eventDate = $row[2];
         $eventTime = $row[3];
         $eventDescription = $row[4];
-        $path = $row[6];
     }
     catch (Exception $e)
     {
@@ -48,13 +47,6 @@ if ($id != NULL || $id != 0) {
 
     <label for="eventDesc">Event Description: </label>
     <textarea name="eventDesc"><?php echo $eventDescription; ?></textarea>
-
-    <label for="uploaded_file">Event Image: </label>
-    <input type="file" name="uploaded_file" value="<?php echo $path; ?>">
-    <!-- The max file size is within a hidden field.
-    This is set to 2MB and will be handed later within
-    the PHP script. -->
-    <input type="hidden" name="MAX_FILE_SIZE" value="2097152" />
 
     <input type="submit" name="submit" value="Edit Event">
 </form>
