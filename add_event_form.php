@@ -18,7 +18,7 @@
     <title>Add Event Form</title>
 </head>
 <body>
-<h1>New Artist</h1>
+<h1>New Event</h1>
 <form id="add" role="form" method="POST" action="add_event.php" enctype="multipart/form-data">
     <label for="eventName">Event Name: </label>
     <input type="text" name="eventName">

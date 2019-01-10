@@ -45,6 +45,12 @@ if ($id != NULL || $id != 0) {
            value="<?php echo $eventDate; ?>"
            min="<?php echo date('M js y G:i'); ?>">
 
+    <label for="eventTime">Event Time: </label>
+    <input type="time" name="eventTime"
+           value="<?php echo $eventTime; ?>"
+           min="9:00"
+           max="21:00">
+
     <label for="eventDesc">Event Description: </label>
     <textarea name="eventDesc"><?php echo $eventDescription; ?></textarea>
 

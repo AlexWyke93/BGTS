@@ -32,6 +32,7 @@ if ($result === false) {
 while ($row = mysqli_fetch_assoc($result)) {
     echo "<h1>" . $row['eventTitle'] . "</h1>" .
         "<h1>" . $row['eventDate'] . "</h1>" .
+        "<h1>" . $row['eventTime'] . "</h1>" . 
         "<h3>" . $row['eventDescription'] . "</h3>" .
         "<p>" . $row['addedDate'] . "</p>" .
         "<img src='" . $row['imageFN'] . "' alt='" . $row['eventTitle'] . "'/>";

@@ -13,6 +13,7 @@ include 'db_functions.php';
 $id = $_POST['id'];
 $eventName = htmlentities($_POST['eventName']);
 $eventDate = htmlentities($_POST['eventDate']);
+$eventTime = htmlentities($_POST['eventTime']);
 $eventDesc = htmlentities($_POST['eventDesc']);
 
 try
@@ -21,6 +22,7 @@ try
         "UPDATE events 
                   SET eventTitle='" . $eventName . "', 
                   eventDate='" . $eventDate . "',
+                  eventTime='" . $eventTime . "',
                   eventDescription='" . $eventDesc . "'
                   WHERE eventId=" . $id . ";"
     );
