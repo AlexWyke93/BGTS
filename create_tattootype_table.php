@@ -17,7 +17,7 @@
         "CREATE TABLE tattootype (
           tattootypeId INT AUTO_INCREMENT PRIMARY KEY NOT NULL UNIQUE,
           tattootype VARCHAR(150) NOT NULL,
-          tattootypeDescription TEXT NOT NULL,
+          tattootypeDescription TEXT NOT NULL
         );"
     );
 
