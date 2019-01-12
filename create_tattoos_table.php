@@ -9,7 +9,6 @@
  * @link     n/a
  */
 
-    phpversion();
     require "Db_functions.php";
 
     $connection = Db_connect();
