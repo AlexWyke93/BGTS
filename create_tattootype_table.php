@@ -21,7 +21,7 @@
         );"
     );
 
-    $result = mysqli_query($connection, $newTable);
+    $result = mysqli_query($connection, $result);
 
 if (!$result) {
     die(htmlentities(Db_quote("Error in Code: " . mysqli_error($connection))));
