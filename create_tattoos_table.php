@@ -20,12 +20,15 @@
           tattooTitle VARCHAR(150) NOT NULL,
           addedDate TIMESTAMP NOT NULL,
           tattooDescription TEXT NOT NULL,
-          tattooType VARCHAR(150) NOT NULL,
+          tattootypeId INT NOT NULL,
           imageFN VARCHAR(200) NOT NULL,
           PRIMARY KEY(tattooId),
           FOREIGN KEY(artistId) REFERENCES artists(artistId)
           ON UPDATE CASCADE
-          ON DELETE CASCADE 
+          ON DELETE CASCADE,
+          FOREIGN KEY(tattootypeId) REFERENCES tattootype(tattootypeId)
+          ON UPDATE CASCADE
+          ON DELETE CASCADE
         );"
     );
 

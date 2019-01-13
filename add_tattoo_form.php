@@ -20,8 +20,8 @@
 <body>
     <h1>New Tattoo</h1>
     <form id="add" role="form" method="POST" action="add_tattoo.php" enctype="multipart/form-data">
-        <label for="tattooName">Tattoo Name: </label>
-        <input type="text" name="tattooName">
+        <label for="tattooTitle">Tattoo Name: </label>
+        <input type="text" name="tattooTitle">
 
         <?php
         include 'db_functions.php';
@@ -37,11 +37,20 @@
 
         ?>
 
-        <label for="tattooDesc">Tattoo Description: </label>
-        <textarea type="text" name="tattooDesc"></textarea>
+        <label for="tattooDescription">Tattoo Description: </label>
+        <textarea type="text" name="tattooDescription"></textarea>
+        <?php
+        $result = Db_query("SELECT tattootypeId, tattootype FROM tattootype ORDER BY tattootypeId ASC");
 
-        <label for="tattooType">Tattoo Type: </label>
-        
+        echo "<label for='typeSelection'>Select Types: </label>";
+        echo "<select multiple name='typeSelection' value='Type'>";
+        while ($row = mysqli_fetch_assoc($result)) {
+            echo "<option value=$row[tattootypeId]>$row[tattootype]</option>";
+        }
+        echo "</select>";
+        ?>
+
+
 
         <label for="uploaded_file">Tattoo Image: </label>
         <input type="file" name="uploaded_file">

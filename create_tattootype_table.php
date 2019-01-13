@@ -21,16 +21,8 @@
         );"
     );
 
-    if (!$result) {
-        $error = Db_error();
-        echo $error;
-    } else {
-        echo "Artists Table Created Successfully!!";
-    
-    }
-
 if (!$result) {
-    die(htmlentities(Db_quote("Error in Code: " . mysqli_error($connection))));
+    die(Db_quote(Db_error($connection)));
 } else {
     echo "Tattoo Type Table Created Successfully!!";
 }

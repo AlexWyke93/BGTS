@@ -81,7 +81,7 @@ function Db_select($query)
 function Db_error()
 {
     $connection = Db_connect();
-    return mysqli_error($connection);
+    return  "Error in Code: " . mysqli_error($connection);
 }
 
 /**
