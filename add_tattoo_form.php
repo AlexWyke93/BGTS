@@ -28,8 +28,8 @@
 
         $result = Db_query("SELECT artistId, artistName FROM artists ORDER BY artistId ASC");
 
-        echo "<label for='artistSelection'>Select Artist: </label>";
-        echo "<select name='artistSelection' value='Artist'>";
+        echo "<label for='artistId'>Select Artist: </label>";
+        echo "<select name='artistId' value='Artist'>";
         while ($row = mysqli_fetch_assoc($result)) {
             echo "<option value=$row[artistId]>$row[artistName]</option>";
         }
@@ -39,17 +39,16 @@
 
         <label for="tattooDescription">Tattoo Description: </label>
         <textarea type="text" name="tattooDescription"></textarea>
+        <label for='typeId[]'>Select Types: </label>
+        <select multiple name="typeId[]" value='Type'>
         <?php
         $result = Db_query("SELECT tattootypeId, tattootype FROM tattootype ORDER BY tattootypeId ASC");
 
-        echo "<label for='typeSelection'>Select Types: </label>";
-        echo "<select multiple name='typeSelection' value='Type'>";
         while ($row = mysqli_fetch_assoc($result)) {
-            echo "<option value=$row[tattootypeId]>$row[tattootype]</option>";
+            echo "<option value=$row[tattootype]>$row[tattootypeId]" . " - " . "$row[tattootype]</option>";
         }
-        echo "</select>";
         ?>
-
+        </select>
 
 
         <label for="uploaded_file">Tattoo Image: </label>

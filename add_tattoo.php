@@ -12,7 +12,7 @@ include 'db_functions.php';
 
 $tattooName = htmlentities($_POST['tattooTitle']);
 $tattooDesc = htmlentities($_POST['tattooDescription']);
-$typeId = htmlentities($_POST['tattootypeId']);
+$typeId = htmlentities(implode(', ', $_POST['typeId']));
 $artistId = htmlentities($_POST['artistId']);
 
 include 'upload.php';
@@ -20,7 +20,7 @@ include 'upload.php';
 $path = "Uploads/" . $_FILES['uploaded_file']['name'];
 
 $result = Db_query("INSERT INTO tattoos VALUES (
-NULL, '$artistId', '$tattooName', NULL, '$tattooDesc', '$tattootypeId', '$path'
+NULL, '$artistId', '$tattooName', NULL, '$tattooDesc', '$typeId', '$path'
 )"
 );
 

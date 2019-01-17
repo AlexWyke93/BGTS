@@ -13,26 +13,20 @@
 
     $connection = Db_connect();
 
-    $result = Db_query(
-        $newTable = "CREATE TABLE tattoos (
+    $result = Db_query("CREATE TABLE tattoos (
           tattooId INT AUTO_INCREMENT NOT NULL UNIQUE,
-          artistId INT NOT NULL UNIQUE,
+          artistId INT NOT NULL,
           tattooTitle VARCHAR(150) NOT NULL,
           addedDate TIMESTAMP NOT NULL,
           tattooDescription TEXT NOT NULL,
-          tattootypeId INT NOT NULL,
+          tattootype TEXT NOT NULL,
           imageFN VARCHAR(200) NOT NULL,
           PRIMARY KEY(tattooId),
           FOREIGN KEY(artistId) REFERENCES artists(artistId)
           ON UPDATE CASCADE
-          ON DELETE CASCADE,
-          FOREIGN KEY(tattootypeId) REFERENCES tattootype(tattootypeId)
-          ON UPDATE CASCADE
           ON DELETE CASCADE
-        );"
+          );"
     );
-
-    $result = mysqli_query($connection, $newTable);
 
 if (!$result) {
     die("Error in Code: " . mysqli_error($connection));
